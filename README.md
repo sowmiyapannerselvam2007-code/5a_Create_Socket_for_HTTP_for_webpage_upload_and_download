@@ -55,7 +55,7 @@ else:
 s.close()
 ```
 ```
-CN.HTML
+CN.html
  <!DOCTYPE html>
 <html>
 <head>
