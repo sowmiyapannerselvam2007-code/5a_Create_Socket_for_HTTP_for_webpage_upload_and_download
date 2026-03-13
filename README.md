@@ -54,6 +54,28 @@ else:
     print(s.recv(1024).decode())
 s.close()
 ```
+```
+CN.HTML
+ <!DOCTYPE html>
+<html>
+<head>
+<title>My Page</title>
+<style>
+body{font-family:Arial;text-align:center;background:#f2f2f2}
+h1{color:blue}
+button{padding:10px;background:green;color:white;border:none}
+</style>
+</head>
+
+<body>
+<h1>Welcome</h1>
+<p>Simple webpage</p>
+
+<button onclick="alert('Hello! Welcome to my webpage.')">Click Me</button>
+
+</body>
+</html>
+```
 
 ## OUTPUT
 ![Output](ou.jpeg)
