@@ -33,7 +33,7 @@ while True:
     print("Request received")
 
     if "GET" in request:
-        f = open("janani.html","r")
+        f = open("CN.html","r")
         data = f.read()
         f.close()
 
@@ -43,7 +43,7 @@ while True:
     elif "POST" in request:
         data = request.split("\n\n")[1]
 
-        f = open("janani.txt","w")
+        f = open("CN.txt","w")
         f.write(data)
         f.close()
 
@@ -104,6 +104,7 @@ button{padding:10px;background:green;color:white;border:none}
 ```
 
 ## OUTPUT
+
 
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
