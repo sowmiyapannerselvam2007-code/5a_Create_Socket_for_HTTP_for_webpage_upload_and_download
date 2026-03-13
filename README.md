@@ -56,5 +56,6 @@ s.close()
 ```
 
 ## OUTPUT
+![Output](WhatsApp Image 2026-03-13 at 13.18.40.jpeg)
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
